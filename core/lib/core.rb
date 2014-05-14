@@ -1,4 +1,4 @@
-require "core/engine"
+require "partybook/core/engine"
 
 module Partybook
   module Core
