@@ -7,11 +7,10 @@ require "partybook/core/version"
 Gem::Specification.new do |s|
   s.name        = "partybook_core"
   s.version     = Partybook::Core::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Core."
-  s.description = "TODO: Description of Core."
+  s.authors     = ["Parbros Labs Web Consulting"]
+  s.email       = ["jorge.parbros@parbros.com"]
+  s.summary     = "core gem of partybook."
+  s.description = "core gem of partybook."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
@@ -22,5 +21,5 @@ Gem::Specification.new do |s|
   s.add_dependency "devise", "~>3.2.3"
 
 
-  s.add_development_dependency "postgres"
+  s.add_development_dependency "pg"
 end

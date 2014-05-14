@@ -1,4 +1,6 @@
-require "backend/engine"
+require "partybook/backend/engine"
 
-module Backend
+module Partybook
+  module Backend
+  end
 end
