@@ -19,6 +19,8 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 4.1.1"
   s.add_dependency "state_machine", "~>1.2.0"
+  s.add_dependency "devise", "~>3.2.3"
+
 
   s.add_development_dependency "postgres"
 end
