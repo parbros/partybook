@@ -1,1 +1,3 @@
-Partybook::Core::Engine.routes.draw
+Partybook::Core::Engine.routes.draw do
+
+end
